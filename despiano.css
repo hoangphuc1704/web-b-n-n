@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#header {
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    background-color: #222222;
+    text-align: center;
+    padding:10px;
+}
+#header .logo{
+    display:flex;
+    border:none;
+    border-radius: 50px;
+}
+#header .button:hover{
+    background-color: orange;
+    border:none;
+    border-radius: 5px;
+
+}
+#header .item{
+    display:flex;
+    color:white;
+}
+#banner {
+    display:flex;
+    background-color: #FFCC33;
+    width:100%;
+    height:40px;
+    justify-content: space-around;
+    font-size:18px;
+    padding:9px;
+}
+#second-product {
+    display:flex;
+}
+#second-product .piano {
+    flex-basis: 50%;
+}
+#second-product .des-mid {
+    flex-basis:30%;
+}
+#second-product .des-left{
+    flex-basis: 23%;
+}
+#second-product {
+    display:flex;
+    width:100%;
+    height:100%;
+}
+#second-product .name{
+    font-size:28px;
+    display:flex;
+    padding: 5px 10px;
+}
+#second-product .price{
+    display:flex;
+    padding:40px 30px;
+    color:red;
+    font-weight: bold;
+    font-size:28px;
+
+}
+#second-product .piano{
+    display:flex;
+    width:250px;
+    padding: 5px 10px;
+    border:none;   
+}
+#second-product .sale{
+    display:flex;
+    border:none;
+    background-color: red;
+    color:white;
+    width:130px;
+    height:25px;
+    border-radius: 4px; 
+    padding:1px 10px;
+}
+#second-product .behind{
+    display:flex;
+    padding:600px 5px;
+}
+#second-product .des-mid {
+    line-height: 1.8;
+}
+#second-product .des-left{
+    padding: 131px 10px;
+    line-height: 1.8;
+}
+#second-product .freeship {
+    font-weight:600;
+    font-size:18px;
+}
+#second-product .special{
+    padding:0px 40px;
+    border:none;
+    border-radius: 4px;
+    background-color:green;
+    width:400px;
+    color:white;
+    font-size:18px;
+    font-weight: 600px;
+}
+
+
+#second-product .measure{
+    font-size:18px;
+    font-weight: 600;
+
+}
+#second-product .border{
+    border-radius: 4px;
+    background-color: #F8F8F8;
+    border:none;
+    border-style: inherit;
+
+}

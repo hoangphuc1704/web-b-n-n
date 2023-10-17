@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    color:white;
+    background-color: red;
+    text-align: center;
+    padding: 0 auto;
+    margin: 10px auto;
+}
+
+#wrapper{
+color:white;
+background-color: gray;
+text-decoration:underline;
+.div_left{
+float: left;
+}
+.div_right{
+float: right;
+}
+}
+#main-content{
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+
+}
+#content{
+    flex-basis: 60px;
+}
+#sidebar{
+    flex-basis: 40%;
+}
+#img{
+
+}
